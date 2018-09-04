@@ -1,0 +1,16 @@
+{
+  "name": "parentsuntil",
+  "version": "0.0.2",
+  "description": "Vanilla javascript version of Jquery's parentsUntil function",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/freaksauce/parentsuntil"
+  },
+  "main": "index.js",
+  "keywords": [
+    "parents",
+    "dom"
+  ],
+  "author": "Jon Bloomer",
+  "license": "ISC"
+}

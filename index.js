@@ -6,7 +6,7 @@
  * @param  {String} filter   The selector to filter against [optional]
  * @return {Array}           The parent elements
  */
-exports.parentsUntil = function(elem, parent, filter) {
+module.exports = function parentsUntil(elem, parent, filter) {
   // matches() polyfill
   if (!Element.prototype.matches) {
     Element.prototype.matches = Element.prototype.msMatchesSelector || Element.prototype.webkitMatchesSelector

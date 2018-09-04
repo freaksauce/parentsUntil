@@ -1,6 +1,11 @@
 # parentsUntil
 This is a packaged version of the [Chris Ferdinandi](https://gomakethings.com) utility function that replicates the functionality of the Jquery function of the same name.
 
+## Install
+```
+npm i parentsuntil
+```
+
 ## Usage
 ```
 import parentsUntil from 'parentsUntil'

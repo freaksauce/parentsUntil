@@ -16,16 +16,23 @@ var parentsUntilByFilter = parentsUntil(elem, '.some-class', '[data-something]')
 ```
 
 ### Real world example
-Add an `is-active` class to the `<ul>` when a menu item is clicked
+Add an `is-active` class to the parent `.nav__item` when a menu item is clicked
 
 ```
 <div class="nav">
   <ul class="nav__submenu">
-    <li class="navItem"><a href="#">nav item</a></li>
+    <li class="nav__item">
+      <a href="#">nav item</a>
+      <ul class="nav__submenu">
+        <li id="test" class="nav__item">
+          <a href="#">sub item</a>
+        </li>
+      </ul>
+    </li>
   </ul>
 </div>
 
-document.querySelector('.navItem').addEventListener('onClick', onClick)
+document.getElementById('test').addEventListener('onClick', onClick)
 
 onClick(event) {
   const navItem = event.target

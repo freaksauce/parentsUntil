@@ -1,6 +1,6 @@
 {
   "name": "parentsuntil",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Vanilla javascript version of Jquery's parentsUntil function",
   "repository": {
     "type": "git",

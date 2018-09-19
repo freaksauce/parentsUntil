@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/freaksauce/parentsUntil.svg?branch=master)](https://travis-ci.org/freaksauce/parentsUntil)
+
 # parentsUntil
 This is a packaged version of the [Chris Ferdinandi](https://gomakethings.com) utility function that replicates the functionality of the Jquery function of the same name.
 

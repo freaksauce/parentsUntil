@@ -9,7 +9,17 @@
   "main": "index.js",
   "keywords": [
     "parents",
-    "dom"
+    "parent",
+    "dom",
+    "HTMLElement",
+    "window",
+    "document",
+    "matches",
+    "filter",
+    "selector",
+    "parentNode",
+    "push",
+    "array"
   ],
   "author": "Jon Bloomer",
   "license": "ISC",

@@ -10,7 +10,7 @@ npm i parentsuntil
 
 ## Usage
 ```
-import parentsUntil from 'parentsUntil'
+import parentsUntil from 'parentsuntil'
 
 var elem = document.querySelector('#some-element');
 var parentsUntil = parentsUntil(elem, '.some-class');
